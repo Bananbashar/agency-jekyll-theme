@@ -1,64 +1,25 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: "https://bananbashar.github.io"
+baseurl: "/agency-jekyll-theme"
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: "Banan Bashar"
+email: "bbaljarrah20@ph.just.edu.jo"
+description: "Clinical Pharmacist | Data Analyst | Researcher. Passionate about transforming clinical data into meaningful insights to support evidence-based decisions."
 
 
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+  
+# Social networks usernames 
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
+    url: https://github.com/bananbashar
+  - title: linkedin
+    url: https://linkedin.com/in/bananbashar
+  - title: email
+    url: bbaljarrah20@ph.just.edu.jo
+# Postal address 
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Amman, Jordan
+  - line: Available for remote research collaboration
 
 # Build settings
 markdown: kramdown
