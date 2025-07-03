@@ -1,25 +1,30 @@
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <!-- Left: Copyright -->
+            <div class="col-md-4">
+                <span class="copyright">© {{ 'now' | date: "%Y" }} Banan Al-Jarrah. All rights reserved.</span>
+            </div>
+
+            <!-- Center: Social Media -->
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    <li>
+                        <a href="https://github.com/bananbashar" target="_blank"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/banan-al-jarrah-aba125357" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:bbaljarrah20@ph.just.edu.jo"><i class="fas fa-envelope"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Right: Remove or repurpose -->
+            <div class="col-md-4 text-right">
+                <span class="text-muted">Made with ❤️ using R & GitHub Pages</span>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
